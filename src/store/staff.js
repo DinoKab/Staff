@@ -21,7 +21,11 @@ export default {
           let worker = {
             id: s.id,
             name: data.name,
-            dob: data.dob
+            dob: data.dob,
+            position: data.position,
+            programmingLanguages: data.programmingLanguages,
+            phone: data.phone,
+            description: data.description
           }
           
           staff.push(worker)
